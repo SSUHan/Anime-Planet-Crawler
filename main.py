@@ -85,8 +85,8 @@ def dump_items(items, last_index):
 
 if __name__ == "__main__":
 	items = []
-	char_id = 0
-	for page_id in range(1, 10021):
+	char_id = 2200
+	for page_id in range(152, 10021):
 		_status, list_item = parse_list_page(LIST_URL, page_id)
 		
 		for each_href in list_item['hrefs']:
